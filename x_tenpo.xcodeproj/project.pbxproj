@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC596FEB2C5270B4004E674A /* x_tenpoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC596FEA2C5270B4004E674A /* x_tenpoApp.swift */; };
+		CC596FED2C5270B4004E674A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC596FEC2C5270B4004E674A /* ContentView.swift */; };
+		CC596FEF2C5270B7004E674A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC596FEE2C5270B7004E674A /* Assets.xcassets */; };
+		CC596FF22C5270B7004E674A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC596FF12C5270B7004E674A /* Preview Assets.xcassets */; };
+		CC596FFD2C5270B7004E674A /* x_tenpoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC596FFC2C5270B7004E674A /* x_tenpoTests.swift */; };
+		CC5970072C5270B7004E674A /* x_tenpoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5970062C5270B7004E674A /* x_tenpoUITests.swift */; };
+		CC5970092C5270B7004E674A /* x_tenpoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5970082C5270B7004E674A /* x_tenpoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC596FF92C5270B7004E674A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC596FDF2C5270B4004E674A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC596FE62C5270B4004E674A;
+			remoteInfo = x_tenpo;
+		};
+		CC5970032C5270B7004E674A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC596FDF2C5270B4004E674A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC596FE62C5270B4004E674A;
+			remoteInfo = x_tenpo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC596FE72C5270B4004E674A /* x_tenpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x_tenpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC596FEA2C5270B4004E674A /* x_tenpoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_tenpoApp.swift; sourceTree = "<group>"; };
+		CC596FEC2C5270B4004E674A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC596FEE2C5270B7004E674A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC596FF12C5270B7004E674A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC596FF32C5270B7004E674A /* x_tenpo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = x_tenpo.entitlements; sourceTree = "<group>"; };
+		CC596FF82C5270B7004E674A /* x_tenpoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = x_tenpoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC596FFC2C5270B7004E674A /* x_tenpoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_tenpoTests.swift; sourceTree = "<group>"; };
+		CC5970022C5270B7004E674A /* x_tenpoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = x_tenpoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5970062C5270B7004E674A /* x_tenpoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_tenpoUITests.swift; sourceTree = "<group>"; };
+		CC5970082C5270B7004E674A /* x_tenpoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_tenpoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC596FE42C5270B4004E674A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC596FF52C5270B7004E674A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC596FFF2C5270B7004E674A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC596FDE2C5270B4004E674A = {
+			isa = PBXGroup;
+			children = (
+				CC596FE92C5270B4004E674A /* x_tenpo */,
+				CC596FFB2C5270B7004E674A /* x_tenpoTests */,
+				CC5970052C5270B7004E674A /* x_tenpoUITests */,
+				CC596FE82C5270B4004E674A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC596FE82C5270B4004E674A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC596FE72C5270B4004E674A /* x_tenpo.app */,
+				CC596FF82C5270B7004E674A /* x_tenpoTests.xctest */,
+				CC5970022C5270B7004E674A /* x_tenpoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC596FE92C5270B4004E674A /* x_tenpo */ = {
+			isa = PBXGroup;
+			children = (
+				CC596FEA2C5270B4004E674A /* x_tenpoApp.swift */,
+				CC596FEC2C5270B4004E674A /* ContentView.swift */,
+				CC596FEE2C5270B7004E674A /* Assets.xcassets */,
+				CC596FF32C5270B7004E674A /* x_tenpo.entitlements */,
+				CC596FF02C5270B7004E674A /* Preview Content */,
+			);
+			path = x_tenpo;
+			sourceTree = "<group>";
+		};
+		CC596FF02C5270B7004E674A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC596FF12C5270B7004E674A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC596FFB2C5270B7004E674A /* x_tenpoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC596FFC2C5270B7004E674A /* x_tenpoTests.swift */,
+			);
+			path = x_tenpoTests;
+			sourceTree = "<group>";
+		};
+		CC5970052C5270B7004E674A /* x_tenpoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC5970062C5270B7004E674A /* x_tenpoUITests.swift */,
+				CC5970082C5270B7004E674A /* x_tenpoUITestsLaunchTests.swift */,
+			);
+			path = x_tenpoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC596FE62C5270B4004E674A /* x_tenpo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC59700C2C5270B7004E674A /* Build configuration list for PBXNativeTarget "x_tenpo" */;
+			buildPhases = (
+				CC596FE32C5270B4004E674A /* Sources */,
+				CC596FE42C5270B4004E674A /* Frameworks */,
+				CC596FE52C5270B4004E674A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = x_tenpo;
+			productName = x_tenpo;
+			productReference = CC596FE72C5270B4004E674A /* x_tenpo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC596FF72C5270B7004E674A /* x_tenpoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC59700F2C5270B7004E674A /* Build configuration list for PBXNativeTarget "x_tenpoTests" */;
+			buildPhases = (
+				CC596FF42C5270B7004E674A /* Sources */,
+				CC596FF52C5270B7004E674A /* Frameworks */,
+				CC596FF62C5270B7004E674A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC596FFA2C5270B7004E674A /* PBXTargetDependency */,
+			);
+			name = x_tenpoTests;
+			productName = x_tenpoTests;
+			productReference = CC596FF82C5270B7004E674A /* x_tenpoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC5970012C5270B7004E674A /* x_tenpoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5970122C5270B7004E674A /* Build configuration list for PBXNativeTarget "x_tenpoUITests" */;
+			buildPhases = (
+				CC596FFE2C5270B7004E674A /* Sources */,
+				CC596FFF2C5270B7004E674A /* Frameworks */,
+				CC5970002C5270B7004E674A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5970042C5270B7004E674A /* PBXTargetDependency */,
+			);
+			name = x_tenpoUITests;
+			productName = x_tenpoUITests;
+			productReference = CC5970022C5270B7004E674A /* x_tenpoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC596FDF2C5270B4004E674A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CC596FE62C5270B4004E674A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CC596FF72C5270B7004E674A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CC596FE62C5270B4004E674A;
+					};
+					CC5970012C5270B7004E674A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CC596FE62C5270B4004E674A;
+					};
+				};
+			};
+			buildConfigurationList = CC596FE22C5270B4004E674A /* Build configuration list for PBXProject "x_tenpo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC596FDE2C5270B4004E674A;
+			productRefGroup = CC596FE82C5270B4004E674A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC596FE62C5270B4004E674A /* x_tenpo */,
+				CC596FF72C5270B7004E674A /* x_tenpoTests */,
+				CC5970012C5270B7004E674A /* x_tenpoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC596FE52C5270B4004E674A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC596FF22C5270B7004E674A /* Preview Assets.xcassets in Resources */,
+				CC596FEF2C5270B7004E674A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC596FF62C5270B7004E674A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC5970002C5270B7004E674A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC596FE32C5270B4004E674A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC596FED2C5270B4004E674A /* ContentView.swift in Sources */,
+				CC596FEB2C5270B4004E674A /* x_tenpoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC596FF42C5270B7004E674A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC596FFD2C5270B7004E674A /* x_tenpoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC596FFE2C5270B7004E674A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5970092C5270B7004E674A /* x_tenpoUITestsLaunchTests.swift in Sources */,
+				CC5970072C5270B7004E674A /* x_tenpoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC596FFA2C5270B7004E674A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC596FE62C5270B4004E674A /* x_tenpo */;
+			targetProxy = CC596FF92C5270B7004E674A /* PBXContainerItemProxy */;
+		};
+		CC5970042C5270B7004E674A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC596FE62C5270B4004E674A /* x_tenpo */;
+			targetProxy = CC5970032C5270B7004E674A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC59700A2C5270B7004E674A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC59700B2C5270B7004E674A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CC59700D2C5270B7004E674A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = x_tenpo/x_tenpo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"x_tenpo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.x-tenpo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CC59700E2C5270B7004E674A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = x_tenpo/x_tenpo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"x_tenpo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.x-tenpo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CC5970102C5270B7004E674A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.x-tenpoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x_tenpo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/x_tenpo";
+			};
+			name = Debug;
+		};
+		CC5970112C5270B7004E674A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.x-tenpoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/x_tenpo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/x_tenpo";
+			};
+			name = Release;
+		};
+		CC5970132C5270B7004E674A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.x-tenpoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = x_tenpo;
+			};
+			name = Debug;
+		};
+		CC5970142C5270B7004E674A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hello.x-tenpoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = x_tenpo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC596FE22C5270B4004E674A /* Build configuration list for PBXProject "x_tenpo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC59700A2C5270B7004E674A /* Debug */,
+				CC59700B2C5270B7004E674A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC59700C2C5270B7004E674A /* Build configuration list for PBXNativeTarget "x_tenpo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC59700D2C5270B7004E674A /* Debug */,
+				CC59700E2C5270B7004E674A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC59700F2C5270B7004E674A /* Build configuration list for PBXNativeTarget "x_tenpoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5970102C5270B7004E674A /* Debug */,
+				CC5970112C5270B7004E674A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5970122C5270B7004E674A /* Build configuration list for PBXNativeTarget "x_tenpoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5970132C5270B7004E674A /* Debug */,
+				CC5970142C5270B7004E674A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC596FDF2C5270B4004E674A /* Project object */;
+}
