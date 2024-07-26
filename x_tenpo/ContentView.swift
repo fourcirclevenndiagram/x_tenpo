@@ -1,24 +1,61 @@
-//
-//  ContentView.swift
-//  x_tenpo
-//
-//  Created by MIN GI KIM on 7/25/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: Screen1View()) {
+                    Text("화면 1로 이동")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+
+                NavigationLink(destination: Screen2View()) {
+                    Text("화면 2로 이동")
+                        .padding()
+                        .background(Color.green)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+
+                NavigationLink(destination: Screen3View()) {
+                    Text("화면 3로 이동")
+                        .padding()
+                        .background(Color.orange)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+
+                NavigationLink(destination: Screen4View()) {
+                    Text("화면 4로 이동")
+                        .padding()
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+                
+                NavigationLink(destination: Screen5View()) {
+                    Text("화면 5로 이동")
+                        .padding()
+                        .background(Color.purple)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
+            }
+            .navigationTitle("메인 화면")
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
