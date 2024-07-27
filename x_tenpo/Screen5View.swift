@@ -2,7 +2,7 @@ import SwiftUI
 
 struct Screen5View: View {
     @State private var inputNumber: String = ""
-    @State private var numbers: [(date: String, number: Int)] = []
+    @State private var numbers: [NumberEntry] = []
     @State private var alertMessage: String? = nil
     @State private var selectedDate: Date = Date()
     @State private var showListView: Bool = false
@@ -22,7 +22,7 @@ struct Screen5View: View {
                     .padding([.leading, .trailing], 20)
                 
                 Button(action: decrementDate) {
-                    Text("날짜-1")
+                    Text("전날 날짜로 적용")
                         .padding()
                         .background(Color.red)
                         .foregroundColor(.white)
@@ -105,30 +105,9 @@ struct Screen5View: View {
             if let index = numbers.lastIndex(where: { $0.number == number && $0.date == formattedDate }) {
                 alertMessage = "숫자 \(number)은(는) 마지막으로 \(formattedDate)에 \(index + 1)번째로 추가되었습니다."
             }
-            numbers.append((date: formattedDate, number: number))
+            numbers.append(NumberEntry(date: formattedDate, number: number))
         }
         inputNumber = ""
-    }
-}
-
-struct NumberListView: View {
-    let numbers: [(date: String, number: Int)]
-    @Environment(\.dismiss) private var dismiss
-
-    var body: some View {
-        NavigationView {
-            List(numbers, id: \.number) { entry in
-                Text("\(entry.date): \(entry.number)")
-            }
-            .navigationTitle("숫자 리스트")
-            .toolbar {
-                ToolbarItem(placement: .cancellationAction) {
-                    Button("닫기") {
-                        dismiss()
-                    }
-                }
-            }
-        }
     }
 }
 

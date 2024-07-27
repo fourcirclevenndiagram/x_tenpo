@@ -19,6 +19,8 @@
 		CC59701A2C527135004E674A /* Screen2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5970192C527134004E674A /* Screen2View.swift */; };
 		CC59701C2C52713C004E674A /* Screen3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59701B2C52713C004E674A /* Screen3View.swift */; };
 		CC59701E2C527143004E674A /* Screen4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59701D2C527143004E674A /* Screen4View.swift */; };
+		CC5970202C53CF6F004E674A /* NumberListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59701F2C53CF6F004E674A /* NumberListView.swift */; };
+		CC5970222C53D34C004E674A /* NumberEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5970212C53D34C004E674A /* NumberEntry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		CC5970192C527134004E674A /* Screen2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2View.swift; sourceTree = "<group>"; };
 		CC59701B2C52713C004E674A /* Screen3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen3View.swift; sourceTree = "<group>"; };
 		CC59701D2C527143004E674A /* Screen4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen4View.swift; sourceTree = "<group>"; };
+		CC59701F2C53CF6F004E674A /* NumberListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberListView.swift; sourceTree = "<group>"; };
+		CC5970212C53D34C004E674A /* NumberEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				CC5970192C527134004E674A /* Screen2View.swift */,
 				CC59701B2C52713C004E674A /* Screen3View.swift */,
 				CC59701D2C527143004E674A /* Screen4View.swift */,
+				CC59701F2C53CF6F004E674A /* NumberListView.swift */,
+				CC5970212C53D34C004E674A /* NumberEntry.swift */,
 			);
 			path = x_tenpo;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5970222C53D34C004E674A /* NumberEntry.swift in Sources */,
 				CC59701C2C52713C004E674A /* Screen3View.swift in Sources */,
 				CC5970182C52711F004E674A /* Screen1View.swift in Sources */,
 				CC596FED2C5270B4004E674A /* ContentView.swift in Sources */,
@@ -281,6 +288,7 @@
 				CC596FEB2C5270B4004E674A /* x_tenpoApp.swift in Sources */,
 				CC59701A2C527135004E674A /* Screen2View.swift in Sources */,
 				CC5970162C5270E3004E674A /* Screen5View.swift in Sources */,
+				CC5970202C53CF6F004E674A /* NumberListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
