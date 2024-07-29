@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC4AB0F82C55BD9000AF1424 /* Screen6View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4AB0F72C55BD9000AF1424 /* Screen6View.swift */; };
 		CC596FEB2C5270B4004E674A /* x_tenpoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC596FEA2C5270B4004E674A /* x_tenpoApp.swift */; };
 		CC596FED2C5270B4004E674A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC596FEC2C5270B4004E674A /* ContentView.swift */; };
 		CC596FEF2C5270B7004E674A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC596FEE2C5270B7004E674A /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC4AB0F72C55BD9000AF1424 /* Screen6View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen6View.swift; sourceTree = "<group>"; };
 		CC596FE72C5270B4004E674A /* x_tenpo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = x_tenpo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC596FEA2C5270B4004E674A /* x_tenpoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = x_tenpoApp.swift; sourceTree = "<group>"; };
 		CC596FEC2C5270B4004E674A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				CC59701D2C527143004E674A /* Screen4View.swift */,
 				CC59701F2C53CF6F004E674A /* NumberListView.swift */,
 				CC5970212C53D34C004E674A /* NumberEntry.swift */,
+				CC4AB0F72C55BD9000AF1424 /* Screen6View.swift */,
 			);
 			path = x_tenpo;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				CC59701E2C527143004E674A /* Screen4View.swift in Sources */,
 				CC596FEB2C5270B4004E674A /* x_tenpoApp.swift in Sources */,
 				CC59701A2C527135004E674A /* Screen2View.swift in Sources */,
+				CC4AB0F82C55BD9000AF1424 /* Screen6View.swift in Sources */,
 				CC5970162C5270E3004E674A /* Screen5View.swift in Sources */,
 				CC5970202C53CF6F004E674A /* NumberListView.swift in Sources */,
 			);

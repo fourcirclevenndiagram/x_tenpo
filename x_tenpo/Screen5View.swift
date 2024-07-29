@@ -47,7 +47,7 @@ struct Screen5View: View {
                     .onReceive(inputNumber.publisher.collect()) {
                         self.inputNumber = String($0.prefix(while: { $0.isNumber }))
                     }
-                    .padding([.leading, .trailing], 20)
+                    .padding([.leading, .trailing], 30)
                 
                 Button(action: addNumber) {
                     Text("숫자 추가")

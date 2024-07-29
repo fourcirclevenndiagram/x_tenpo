@@ -48,6 +48,15 @@ struct ContentView: View {
                         .cornerRadius(8)
                 }
                 .padding()
+                
+                NavigationLink(destination: Screen6View()) {
+                    Text("화면 6로 이동")
+                        .padding()
+                        .background(Color.black)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                .padding()
             }
             .navigationTitle("메인 화면")
         }
