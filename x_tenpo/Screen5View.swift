@@ -42,7 +42,7 @@ struct Screen5View: View {
             HStack {
                 TextField("숫자를 입력하세요", text: $inputNumber)
                     .padding()
-                    .background(Color.gray.opacity(0.2))
+                    .background(Color.blue.opacity(0.8))
                     .cornerRadius(8)
                     .onReceive(inputNumber.publisher.collect()) {
                         self.inputNumber = String($0.prefix(while: { $0.isNumber }))
