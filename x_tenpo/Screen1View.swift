@@ -16,7 +16,7 @@ struct Screen1View: View {
                 ZStack {
                     Rectangle()
                         .fill(Color.blue)
-                        .frame(width: 100, height: 100)
+                        .frame(width: 500, height: 50)
                         .rotationEffect(.degrees(rotateSquare ? 360 : 0))
                         .onAppear() {
                             withAnimation(Animation.linear(duration: 2).repeatForever(autoreverses: false)) {
@@ -27,7 +27,7 @@ struct Screen1View: View {
                     Circle()
                         .fill(Color.red)
                         .frame(width: 50, height: 50)
-                        .offset(y: moveCircle ? 100 : -100)
+                        .offset(y: moveCircle ? 100 : -160)
                         .onAppear() {
                             withAnimation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
                                 self.moveCircle.toggle()
@@ -43,7 +43,7 @@ struct Screen1View: View {
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(.white)
-                        .cornerRadius(8)
+                        .cornerRadius(36)
                 }
                 .padding()
             }
