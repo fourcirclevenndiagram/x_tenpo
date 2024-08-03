@@ -28,7 +28,7 @@ struct Screen5View: View {
                         .foregroundColor(.white)
                         .cornerRadius(8)
                 }
-                .padding(.trailing, 20)
+                .padding(.trailing, 30)
                 
                 Button(action: applyDate) {
                     Text("날짜 적용")
