@@ -105,7 +105,7 @@ struct CalculatorButton: View {
         Button(action: action) {
             Text(label)
                 .font(.largeTitle)
-                .frame(width: 80, height: 80)
+                .frame(width: 100, height: 80)
                 .background(Color.blue.opacity(0.2))
                 .cornerRadius(40)
         }
