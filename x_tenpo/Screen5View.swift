@@ -47,14 +47,14 @@ struct Screen5View: View {
                     .onReceive(inputNumber.publisher.collect()) {
                         self.inputNumber = String($0.prefix(while: { $0.isNumber }))
                     }
-                    .padding([.leading, .trailing], 40)
+                    .padding([.leading, .trailing], 50)
                 
                 Button(action: addNumber) {
                     Text("숫자 추가")
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(.white)
-                        .cornerRadius(8)
+                        .cornerRadius(7)
                 }
                 .padding(.trailing, 20)
             }
