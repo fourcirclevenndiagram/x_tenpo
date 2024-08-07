@@ -7,7 +7,7 @@ struct Screen3View: View {
 
     var body: some View {
         NavigationView {
-            VStack(spacing: 20) {
+            VStack(spacing: 5) {
                 Text("타이머")
                     .font(.largeTitle)
                     .padding()
