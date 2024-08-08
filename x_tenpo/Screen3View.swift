@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct Screen3View: View {
-    @State private var timeRemaining = 30
+    @State private var timeRemaining = 60
     @State private var timerActive = false
     @State private var timer: Timer?
 
