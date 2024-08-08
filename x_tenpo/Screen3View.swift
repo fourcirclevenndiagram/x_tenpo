@@ -15,7 +15,7 @@ struct Screen3View: View {
                 Spacer()
                 
                 Text("\(timeRemaining)")
-                    .font(.system(size: 72))
+                    .font(.system(size: 42))
                     .padding()
                 
                 HStack {
