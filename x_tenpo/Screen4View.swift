@@ -14,7 +14,7 @@ struct Screen4View: View {
                 
                 Rectangle()
                     .fill(color)
-                    .frame(width: 200, height: 300)
+                    .frame(width: 200, height: 500)
                     .cornerRadius(12)
                     .shadow(radius: 10)
 
