@@ -14,7 +14,7 @@ struct Screen4View: View {
                 
                 Rectangle()
                     .fill(color)
-                    .frame(width: 200, height: 400)
+                    .frame(width: 200, height: 600)
                     .cornerRadius(12)
                     .shadow(radius: 10)
 
@@ -44,7 +44,7 @@ struct Screen4View: View {
     func generateRandomColor() {
         let red = Double.random(in: 0.2...1)
         let green = Double.random(in: 0.0...0.5)
-        let blue = Double.random(in: 0.5...1)
+        let blue = Double.random(in: 0.8...1)
         color = Color(red: red, green: green, blue: blue)
     }
 }
