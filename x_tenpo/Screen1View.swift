@@ -26,7 +26,7 @@ struct Screen1View: View {
 
                     Circle()
                         .fill(Color.red)
-                        .frame(width: 50, height: 50)
+                        .frame(width: 100, height: 10)
                         .offset(y: moveCircle ? 100 : -160)
                         .onAppear() {
                             withAnimation(Animation.easeInOut(duration: 2).repeatForever(autoreverses: true)) {
