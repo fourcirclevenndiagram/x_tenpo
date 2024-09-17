@@ -42,9 +42,9 @@ struct Screen4View: View {
     }
     
     func generateRandomColor() {
-        let red = Double.random(in: 0.5...0.6)
+        let red = Double.random(in: 0.5...0.9)
         let green = Double.random(in: 0.0...1.0)
-        let blue = Double.random(in: 0.3...1)
+        let blue = Double.random(in: 0.3...0.7)
         color = Color(red: red, green: green, blue: blue)
     }
 }
