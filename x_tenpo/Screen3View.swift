@@ -67,7 +67,7 @@ struct Screen3View: View {
     
     func resetTimer() {
         timer?.invalidate()
-        timeRemaining = 650
+        timeRemaining = 660
         timerActive = false
     }
 }
